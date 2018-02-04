@@ -1,6 +1,12 @@
 var Salary = require('../models/salary');
 
 exports.index = function(req, res) {
+  // Salary.find({}, 'amount').exec(function(err, list) {
+  //   if(err) {
+  //     return next(err);
+  //   }
+  //   console.log(list);
+  // });
   res.send('NOT IMPLEMENTED: Site Home Page');
 };
 
@@ -21,6 +27,11 @@ exports.salary_create_get = function(req, res) {
 
 // Handle salary create on POST.
 exports.salary_create_post = function(req, res) {
+    // Salary.create({ amount: req.params.amount }, function(err, salary_details) {
+    //   if(err) {
+    //     return next(err);
+    //   }
+    // });
     res.send('NOT IMPLEMENTED: salary create POST');
 };
 

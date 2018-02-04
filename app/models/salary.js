@@ -10,7 +10,7 @@ var SalarySchema = new Schema({
 SalarySchema
 .virtual('url')
 .get(function () {
-  return '/budget/salary/' + this._id;
+  return '/budget_app/salary/' + this._id;
 });
 
 //Export model
