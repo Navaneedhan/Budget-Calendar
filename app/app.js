@@ -8,12 +8,13 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
 var expenses = require('./routes/expenses');
+var salary = require('./routes/salary');
 
 var app = express();
 
 //Set up mongoose connection
 var mongoose = require('mongoose');
-var mongoDB = 'insert_your_database_url_here';
+var mongoDB = 'mongodb://admin:secret@ds225038.mlab.com:25038/budget_app';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
@@ -34,6 +35,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/expenses', expenses);
+app.use('/salary', salary);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

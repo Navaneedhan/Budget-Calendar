@@ -11,7 +11,7 @@ var ExpenseSchema = new Schema({
 ExpenseSchema
 .virtual('url')
 .get(function () {
-  return '/budget/expense/' + this._id;
+  return '/budget_app/expense/' + this._id;
 });
 
 //Export model
