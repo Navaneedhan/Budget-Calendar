@@ -4,4 +4,23 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    block content
+    div(id="background")
+      div(id="page")
+        div(class="header")
+          div(class="footer")
+            div(class="body")
+              div(id="sidebar")
+                a
+                  img.logo#logo(src="images/Budget.png" width="175" height="74" alt="" title="")
+                ul(class="navigation")
+                  li 
+                    a Home
+                  li
+                    a About
+                  li
+                    a Contact Us
+              div(id="content")
+                div(class="content")
+                  ul
+                    li
+                      block content
