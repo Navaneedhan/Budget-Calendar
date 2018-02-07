@@ -106,7 +106,7 @@ left:0;
 top:-5px;
 text-align:center;
 padding-right:10px;
-color:#999999;
+color:#000080;
 text-decoration:none;
 
 
@@ -118,11 +118,10 @@ height:40px;
 height:40px;
 display:block;
 position:absolute;
-color:#669933;
-background: url("../images/sprite.gif");
+color:#000080;
 background-repeat:no-repeat;
 background-position: 200px -228px;
-text-shadow: #ffffff 2px 0px 1px;
+text-shadow: #FFFFFF 2px 0px 1px;
 }
 
 #page .header .footer .body #sidebar ul.navigation li.active a{
@@ -210,6 +209,9 @@ color:#999999;
 /** Start of Content Style **/	
 
 #page .header .footer .body #content{
+height:50px;
+position: relative;
+top: 20px;
 width:739px;
 float:left;
 padding-bottom:50px;
