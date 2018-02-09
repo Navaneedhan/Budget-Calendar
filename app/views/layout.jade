@@ -3,6 +3,10 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+
   body
     div(id="background")
       div(id="page")
@@ -14,7 +18,7 @@ html
                   img.logo#logo(src="images/Budget.png" width="175" height="74" alt="" title="")
                 ul(class="navigation")
                   li 
-                    #[a(href='/Home') Home]
+                    a(href="/") Home
                   li
                     #[a(href='/Salary') Salary]
                   li

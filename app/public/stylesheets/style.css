@@ -12,7 +12,7 @@ background-image:url('../images/bg-body.gif');
 
 
 #background{
-background-image:url('../images/bg-page-top-curve.jpg');  
+/* background-image:url('../images/bg-page-top-curve.jpg');   */
 background-repeat:no-repeat;
 background-position:top center;
 }
@@ -20,7 +20,7 @@ background-position:top center;
 #page{
 width:950px;
 margin:0 auto;
-padding: 0 5px;
+/* padding: 0 5px; */
 }
 
 #page .header{
@@ -119,6 +119,7 @@ height:40px;
 display:block;
 position:absolute;
 color:#000080;
+/* background: url("../images/sprite.gif"); */
 background-repeat:no-repeat;
 background-position: 200px -228px;
 text-shadow: #FFFFFF 2px 0px 1px;
@@ -130,8 +131,8 @@ height:40px;
 height:40px;
 display:block;
 position:absolute;
-color:#669933;
-background: url("../images/sprite.gif");
+color:#000000;
+/* background: url("../images/sprite.gif"); */
 background-repeat:no-repeat;
 background-position: 200px -228px;
 text-shadow: #ffffff 2px 0px 1px;
@@ -223,6 +224,7 @@ overflow:hidden;
 }		
 
 #page .header .footer .body #content .content{
+  margin: 20px 0 0 -10px;
 width:726px;
 background-image:url('../images/bg-inner-page.jpg');  
 background-repeat:repeat-y;
@@ -389,7 +391,7 @@ margin:0 10px;
 
 #page .header .footer .body #content .featured .body p{
 padding:0 20px 0 20px;
-margin:left:0;
+margin-left: 0;
 
 }
 
